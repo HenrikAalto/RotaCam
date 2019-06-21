@@ -16,15 +16,16 @@ Die eigentliche WebCam-Funktionalität ist bereits in diversen Repositories zur 
 
 Die Steuerung des Servos erfolgt über eine Telnet-Verbindung. Nach Eingabe eines ‚?‘ erscheint die aktuelle Befehlsliste:
 
-ESP32 - Cam Controller V0.1.1 (04-06-2019)  
-______________________________________________________  
+<pre><code>ESP32 - Cam Controller V0.1.1 (04-06-2019)  
+_________________________________________________________  
 Befehle  
 Bxxx    - Blitz (Intensität 0 < xxx < 100)  
 Rxxx    - Rotation (Winkel 0 < xxx < 180  
 q       - Telnet-Sitzung beenden  
-l       - Zustandslog aktivieren/deaktivieren (für Debugging)  
+l       - Zustandslog aktivieren/deaktivieren 
 i       - Initialisierung  
 ?       - Diese Liste  
+</code></pre>
 
 <em>Hinweis:  
 Die Kommando-Buchstaben (zur Steuerung des Moduls) sind in Großbuchstaben, gefolgt von einem Parameter, Sitzungsbefehle in Kleinbuchstaben einzugeben.</em>
