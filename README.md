@@ -34,7 +34,9 @@ Um eine solide Einheit zu bilden, braucht die ganze Geschichte natürlich ein ko
 
 <strong>Technischen Details:</strong>  
 Um den Aufbau möglichst schlank zu gestalten, also ohne zusätzliche Platine (die weiteren Platz gebraucht hätte) ist das Gehäuse so entworfen, dass es auf der einen Seite das ESP32CAM-Modul aufnimmt und den Servo auf der Anderen. 
-Ein Durchbruch zu Vcc GND und Pin12 des ESP32CAM, in passender Größe für den Stecker des Servos ermöglichen die Verbindung von Beiden. 
+Ein Durchbruch zu Vcc GND und Pin12 des ESP32CAM, in passender Größe für den Stecker des Servos ermöglichen die Verbindung von Beiden.  
 Leider passt die Pinbelegung des Steckers am Kabel Servomotor ab Werk nicht zu der am ESP32 CAM. Darum muss Vcc und GND am Stecker vertauscht werden. Es ist jedoch recht einfach die Kunststoffnasen des Steckers leicht aufzubiegen. Dann können die beiden Metallstecker nach hinten herausgezogen und in der passenden Position wieder eingeschoben werden.
-An die Anschlussleitung des Servus wird nun noch die Stromzuführung gelötet und durch die Bohrung des Gehäuses nach außen geführt. Der Rest des Kabels findet in der Aussparung des Gehäuses Platz.
-Das Drehkreuz des Servos dient zur Befestigung des gesamten Moduls. Es sollte also ausreichend Anschlussleitung eingeplant werden, damit die Drehung um 180° möglich ist.
+An die Anschlussleitung des Servus wird nun noch die Stromzuführung gelötet und durch die Bohrung des Gehäuses nach außen geführt. Der Rest des Kabels findet in der Aussparung des Gehäuses Platz.  
+Das Drehkreuz des Servos dient zur Befestigung des gesamten Moduls. Es sollte also ausreichend Anschlussleitung eingeplant werden, damit die Drehung um 180° möglich ist.  
+
+Bei dem von mir getesteten Modell war das WiFi-Signal sehr schwach. Entgegen meiner Erwartung war die interne Antenne nicht aktiv. Nach Verbinden mit einer externen WiFi-Antenne über den IPX-Stecker klappte alles prima und die Bildübertragung lief deutlich flüssiger. Auf der Seite von <a href="https://robotzero.one/esp32-cam-arduino-ide/">Robot Zero One</a> fand ich dann auch einen Hinweis, wie man erkennen kann welche Antennenkonfiguration einem geliefert wurde (On-Board vs IPEX Antenna).
