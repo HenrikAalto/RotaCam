@@ -40,3 +40,8 @@ An die Anschlussleitung des Servus wird nun noch die Stromzuführung gelötet un
 Das Drehkreuz des Servos dient zur Befestigung des gesamten Moduls. Es sollte also ausreichend Anschlussleitung eingeplant werden, damit die Drehung um 180° möglich ist.  
 
 Bei dem von mir getesteten Modell war das WiFi-Signal sehr schwach. Entgegen meiner Erwartung war die interne Antenne nicht aktiv. Nach Verbinden mit einer externen WiFi-Antenne über den IPX-Stecker klappte alles prima und die Bildübertragung lief deutlich flüssiger. Auf der Seite von <a href="https://robotzero.one/esp32-cam-arduino-ide/">Robot Zero One</a> fand ich dann auch einen Hinweis, wie man erkennen kann welche Antennenkonfiguration einem geliefert wurde (On-Board vs IPEX Antenna).
+
+Sehr hilfreich kann in dem Zusammenhang auch der unter 
+https://github.com/SeeedDocument/forum_doc/raw/master/reg/ESP32_CAM_V1.6.pdf 
+abliegende Schaltplan sein. Anhand dessen auch die etwas sonderbar anmutende Funktion des Pins4 (3,3V/5V) erklärlich wird. Es wirkt auf den ersten Blick unsinnig, dass im Plan der 3,3V- und der 5V-Anschluss jeweils über einen 0 Ohm Widerstand zusammengeschaltet werden. Schaut man sich das Board jedoch genauer an, erkennt man, dass der Hersteller nur einen (oder auch keinen) der 0 Ohm Widerstände eingelötet hat.  
+Ursprünglich hatte ich überlegt dies zur Stromzuführung zu nutzen. Da dies trotz der oben erwähnten Erkentnisse jedoch nicht so richtig funktioniert wurde die Idee wieder verworfen. 
