@@ -30,7 +30,7 @@ i       - Initialisierung
 <em>Hinweis:  
 Die Kommando-Buchstaben (zur Steuerung des Moduls) sind in Großbuchstaben, gefolgt von einem Parameter, Sitzungsbefehle in Kleinbuchstaben einzugeben.</em>
 
-Um eine solide Einheit zu bilden, braucht die ganze Geschichte natürlich ein kompaktes Gehäuse. Das STL-Files des Moduls liegt <a href="https://github.com/HenrikAalto/RotaCam/blob/master/Webcam-Träger%20V1.4.stl">hier</a> ab lässt sich mit einem 3D-Drucker leicht herstellen. Es dient lediglich als Basisträger. Eine Abdeckung die das Ganze wetterfest und damit für den Außeneinsatz tauglich machen wird, ist in Planung…
+Um eine solide Einheit zu bilden, braucht die ganze Geschichte natürlich ein kompaktes Gehäuse. Das STL-Files des Moduls liegt <a href="https://github.com/HenrikAalto/RotaCam/blob/master/WebCam-Träger_v2.0.stl">hier</a> ab lässt sich mit einem 3D-Drucker leicht herstellen. Es dient lediglich als Basisträger. Eine Abdeckung die das Ganze wetterfest und damit für den Außeneinsatz tauglich machen wird, ist in Planung…
 
 <strong>Technischen Details:</strong>  
 Um den Aufbau möglichst schlank zu gestalten, also ohne zusätzliche Platine (die weiteren Platz gebraucht hätte), ist das Gehäuse so entworfen, dass es auf der einen Seite das ESP32CAM-Modul aufnimmt 
