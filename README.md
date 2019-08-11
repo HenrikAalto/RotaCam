@@ -39,9 +39,10 @@ und den Servo
 ![Title](https://github.com/HenrikAalto/RotaCam/blob/master/Gehaeuse_Servo-seitig.jpg)  
 auf der Anderen.  
 Ein Durchbruch zu Vcc GND und Pin12 des ESP32CAM, in passender Größe für den Stecker des Servos ermöglichen die Verbindung von Beiden.  
-![Title](https://github.com/HenrikAalto/RotaCam/blob/master/ESP32-CAM.png)  
-<em>(Danke an Jan Jezek für das 3D-Modell des ESP32-CAM-Moduls, es hat mit den Entwurf des Halters sehr erleichtert)</em>
-Leider passt die Pinbelegung des Steckers am Kabel Servomotor, bei diesem Modell nicht ab Werk nicht zu der am ESP32 CAM. Darum muss Vcc und GND am Stecker vertauscht werden. Es ist jedoch recht einfach die Kunststoffnasen des Steckers leicht aufzubiegen. Dann können die beiden Metallstecker nach hinten herausgezogen und in der passenden Position wieder eingeschoben werden.
+![Title](https://github.com/HenrikAalto/RotaCam/blob/master/ESPmitStecker.png)  
+Leider passt die Pinbelegung des Steckers am Kabel Servomotor, bei diesem Modell nicht ab Werk nicht zu der am ESP32 CAM. Darum muss Vcc (rot) und GND (braun) am Stecker vertauscht werden. Es ist jedoch recht einfach die Kunststoffnasen des Steckers leicht aufzubiegen. 
+![Title](https://github.com/HenrikAalto/RotaCam/blob/master/Steckerbelegung_aendern.png)  
+Dann können die beiden Metallstecker nach hinten herausgezogen und in der passenden Position wieder eingeschoben werden.
 An die Anschlussleitung des Servos wird nun noch die Stromzuführung gelötet und durch die Bohrung des Gehäuses nach außen geführt. Der Rest des Kabels findet in der Aussparung des Gehäuses Platz.  
 Das Drehkreuz des Servos wird nicht benötigt, da seine Achse später in die Grunplatte gesteckt und dort verschraubt wird. Es sollte also ausreichend Anschlussleitung eingeplant werden, damit die Drehung um 180° möglich ist.  
 Dieses Foto zeigt nicht den letzten Designstand. Die aktuelle Version des Halters hat zusätzlich eine Öffnung um ggf. die Anschlussleitung einer externe Antenne nach außen führen zu können.
