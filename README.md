@@ -47,7 +47,7 @@ Das Drehkreuz des Servos wird nicht benötigt, da seine Achse später in die Gru
 Dieses Foto zeigt nicht den letzten Designstand. Die aktuelle Version des Halters hat zusätzlich eine Öffnung um ggf. die Anschlussleitung einer externe Antenne nach außen führen zu können.
 ![Title](https://github.com/HenrikAalto/RotaCam/blob/master/WebCam_offen.png)  
 Um das Trägermodul im Gehäuse zu befestigen wird es mit einer Innensechskantschraube und eine Unterlagsscheibe fixiert. Das Gehäuse bietet auch die möglichkeit eine Kunststoffscheibe besser gesagt -folie einzuschieben, damit die Kameraoptik und die LED nicht der Witterung ausgesetzt sind. Um das erkennbar zu machen, habe ich die Scheibe für das Foto ein Stück weit herausgezogen. Eine Nut zum einschieben eines umlaufenden Dichtungsgummies (hier mit Flexifilament ausgeführt) ist ebenfalls vorhanden.  
-![Title](https://github.com/HenrikAalto/RotaCam/blob/master/WebCam_offen.png)  
+![Title](https://github.com/HenrikAalto/RotaCam/blob/master/WebCam.png)  
 Hier das fertige, geschlossene Gehäuse.  
 
 <strong>Hinweise:</strong>  
