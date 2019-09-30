@@ -57,7 +57,7 @@ So siehts aus wenn der 0 Ohm Widerstand den externen Antennenanschlussaktiviert:
 ![Title](https://github.com/HenrikAalto/RotorCam180/blob/master/ESP32%20mit%20aktiver%20externer%20Antenne.png)  
 ...und so wenn die interne Antenne aktiv ist:  
 ![Title](https://github.com/HenrikAalto/RotorCam180/blob/master/ESP32%20mit%20aktiver%20interner%20Antenne.png)  
-Umlöten ist bei dem SMD-Fisselkram schwierig. Da es sich aber um einen 0 Ohm Widerstand handeln soll (also eine simple Verbindung), könnte ein Brücke aus Lötizinn zu internen Antenne genügen. Natürlichch nur wenn zuvor das SMB-Bauteil ausgelötet wurde. Ich hab das aber nicht getestet sondern werde noch mit einigen externe Antennen testen. Wenn sich was brauchbares ergibt schreib ich's hier rein...  
+Umlöten ist bei dem SMD-Fisselkram schwierig. Da es sich aber um einen 0 Ohm Widerstand handeln soll (also eine simple Verbindung), könnte ein Brücke aus Lötizinn zu internen Antenne genügen. Natürlich nur wenn zuvor das SMB-Bauteil ausgelötet wurde. Ich hab das aber nicht getestet sondern werde noch mit einigen externe Antennen testen. Wenn sich was brauchbares ergibt schreib ich's hier rein...  
 Sehr hilfreich kann in dem Zusammenhang auch der unter 
 https://github.com/SeeedDocument/forum_doc/raw/master/reg/ESP32_CAM_V1.6.pdf 
 abliegende Schaltplan sein. Anhand dessen auch die etwas sonderbar anmutende Funktion des Pins4 (3,3V/5V) erklärlich wird. Es wirkt auf den ersten Blick unsinnig, dass im Plan der 3,3V- und der 5V-Anschluss jeweils über einen 0 Ohm Widerstand zusammengeschaltet werden. Schaut man sich das Board jedoch genauer an, erkennt man, dass der Hersteller nur einen (oder auch keinen) der 0 Ohm Widerstände eingelötet hat.  
