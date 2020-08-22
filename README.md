@@ -53,9 +53,9 @@ Hier das fertige, geschlossene Gehäuse (incl. <a href="https://github.com/Henri
 
 <strong>Hinweise:</strong>  
 Bei dem von mir getesteten ESP32-Cam Modell war das WiFi-Signal sehr schwach. Entgegen meiner Erwartung war die interne Antenne nicht aktiv. Nach Verbinden mit einer externen WiFi-Antenne über den IPX-Stecker klappte alles prima und die Bildübertragung lief deutlich flüssiger (das war auch der Grund, das Design des Haltes nochmal anzupassen und eine Öffnung für das Antennenkaben hinzuzufügen). Auf der Seite von <a href="https://robotzero.one/esp32-cam-arduino-ide/">Robot Zero One</a> fand ich dann auch einen Hinweis, wie man erkennen kann welche Antennenkonfiguration einem geliefert wurde (On-Board vs IPEX Antenna). Bei einem anderem ESP32-Modul, das ich inzwischen erhalten habe, war (wie erwartet) die interne Antenne aktiv. Es war der gleiche Artikel, vom gleichen Liferanten - also besser immer erst mal unterm Mikroskop nachsehen.  
-So siehts aus wenn der 0 Ohm Widerstand den externen Antennenanschlussaktiviert:
+So siehts aus wenn der 0 Ohm Widerstand den externen Antennenanschluss aktiviert:
 ![Title](https://github.com/HenrikAalto/RotorCam180/blob/master/ESP32%20mit%20aktiver%20externer%20Antenne.png)  
-...und so wenn die interne Antenne aktiv ist:  
+...und so wenn die interne, aufgedruckte Antenne aktiv ist:  
 ![Title](https://github.com/HenrikAalto/RotorCam180/blob/master/ESP32%20mit%20aktiver%20interner%20Antenne.png)  
 Umlöten ist bei dem SMD-Fisselkram schwierig. Da es sich aber um einen 0 Ohm Widerstand handeln soll (also eine simple Verbindung), könnte ein Brücke aus Lötizinn zu internen Antenne genügen. Natürlich nur wenn zuvor das SMB-Bauteil ausgelötet wurde. Ich hab das aber nicht getestet sondern werde noch mit einigen externe Antennen testen. Wenn sich was brauchbares ergibt schreib ich's hier rein...  
 Sehr hilfreich kann in dem Zusammenhang auch der unter 
